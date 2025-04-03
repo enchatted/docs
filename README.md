@@ -1,32 +1,58 @@
-# Starter Kit!
+# 📘 Assignbots Docs
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+Welcome to the **Assignbots Documentation Repository**.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components 
+This repo contains all user-facing product documentation for [Assignbots](https://assignbots.enchatted.com), a privacy-first AI platform built for educators to create, manage, and deploy intelligent bots for classroom and academic use.
 
-### Development
+---
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+## 📁 Folder Structure
 
 ```
-npm i -g mintlify
+docs/
+├── _sidebar.yaml                  # Sidebar navigation for Mintlify
+├── docs.json                      # Mintlify config file
+├── getting-started/              # Introductory guides
+├── platform/                     # Using projects and bots
+├── bot-editor/                   # Customizing bots
+├── settings/                     # Privacy, account settings
+├── images/                       # Used screenshots and diagrams
+├── logo/                         # Light/dark logos
+├── support.mdx                   # Help and contact info
 ```
 
-Run the following command at the root of your documentation (where docs.json is)
+---
 
+## 🚀 Getting Started (as a developer)
+
+To preview the documentation locally:
+
+```bash
+npx mintlify dev
 ```
-mintlify dev
+
+To build it:
+
+```bash
+npx mintlify build
 ```
 
-### Publishing Changes
+---
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard.
+## 🧠 About Assignbots
 
-#### Troubleshooting
+Assignbots is developed by **Enchatted PC**, based in Greece. It empowers educators to build intelligent assistants tailored to their course content — securely, privately, and with no technical expertise required.
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+All data is encrypted and stored in isolated environments on AWS. Only the bot owner can view or access project content.
+
+---
+
+## 📬 Contact & Support
+
+For documentation contributions or product support, reach out:
+
+- 📧 Email: [support@enchatted.com](mailto:support@enchatted.com)
+- 🌐 Website: [assignbots.enchatted.com](https://assignbots.enchatted.com)
+
+We're excited to see what you'll build!
+

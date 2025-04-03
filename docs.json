@@ -71,12 +71,11 @@
     "primary": {
       "type": "button",
       "label": "Go to Assignbots",
-      "href": "https://assignbots.app"
+      "href": "https://assignbots.enchatted.com/"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/assignbots",
       "github": "https://github.com/enchatted",
       "linkedin": "https://linkedin.com/company/enchatted"
     }
