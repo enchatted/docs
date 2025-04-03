@@ -1,0 +1,24 @@
+- Getting Started:
+    - Introduction: getting-started/introduction.mdx
+    - Creating an Account: getting-started/creating-an-account.mdx
+    - Logging In: getting-started/logging-in.mdx
+
+- Using the Platform:
+    - Dashboard Overview: platform/dashboard-overview.mdx
+    - Creating a Project: platform/creating-a-project.mdx
+    - Creating a Bot: platform/creating-a-bot.mdx
+    - Managing Projects & Bots: platform/managing-projects.mdx
+
+- Bot Editor:
+    - AI Setup: bot-editor/ai-setup.mdx
+    - Tone: bot-editor/tone.mdx
+    - Visuals: bot-editor/visuals.mdx
+    - Knowledge: bot-editor/knowledge.mdx
+    - Script: bot-editor/script.mdx
+
+- Settings & Privacy:
+    - Account Settings: settings/account-settings.mdx
+    - Data Deletion: settings/data-deletion.mdx
+
+- Help:
+    - Support & Contact: support.mdx
