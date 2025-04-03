@@ -3,77 +3,59 @@
   "theme": "mint",
   "name": "Assignbots",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6366F1",
+    "light": "#A5B4FC",
+    "dark": "#4338CA"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Docs",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "getting-started/introduction",
+              "getting-started/creating-an-account",
+              "getting-started/logging-in"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Using the Platform",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "platform/dashboard-overview",
+              "platform/creating-a-project",
+              "platform/creating-a-bot",
+              "platform/managing-projects"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Bot Editor",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "bot-editor/ai-setup",
+              "bot-editor/tone",
+              "bot-editor/visuals",
+              "bot-editor/knowledge",
+              "bot-editor/script"
+            ]
+          },
+          {
+            "group": "Settings & Privacy",
+            "pages": [
+              "settings/account-settings",
+              "settings/data-deletion"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "support"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -83,20 +65,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@enchatted.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Go to Assignbots",
+      "href": "https://assignbots.app"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/assignbots",
+      "github": "https://github.com/enchatted",
+      "linkedin": "https://linkedin.com/company/enchatted"
     }
   }
 }
