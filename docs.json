@@ -31,7 +31,7 @@
             ]
           },
           {
-            "group": "Bot Editor",
+            "group": "Bot Configuration",
             "pages": [
               "bot-editor/ai-setup",
               "bot-editor/tone",
@@ -41,15 +41,39 @@
             ]
           },
           {
-            "group": "Settings & Privacy",
+            "group": "How-To Guides",
+            "pages": [
+              "how-to/[add-how-to-guide]"
+            ]
+          },
+          {
+            "group": "Advanced Features",
+            "pages": [
+              "advanced/[add-advanced-feature]"
+            ]
+          },
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/introduction",
+              "api-reference/openapi",
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          },
+          {
+            "group": "Account & Privacy",
             "pages": [
               "settings/account-settings",
               "settings/data-deletion"
             ]
           },
           {
-            "group": "Help",
+            "group": "Help & Support",
             "pages": [
+              "faq",
               "support"
             ]
           }
@@ -64,14 +88,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "Support & Contact",
         "href": "mailto:support@enchatted.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Go to Assignbots",
-      "href": "https://assignbots.enchatted.com/"
+      "href": "https://assignbots.enchatted.com"
     }
   },
   "footer": {
