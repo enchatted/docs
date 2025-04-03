@@ -51,12 +51,7 @@
           {
             "group": "API Reference",
             "pages": [
-              "api-reference/introduction",
-              "api-reference/openapi",
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoint"
             ]
           },
           {
