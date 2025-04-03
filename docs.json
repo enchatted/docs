@@ -43,13 +43,9 @@
           {
             "group": "How-To Guides",
             "pages": [
-              "how-to/[add-how-to-guide]"
-            ]
-          },
-          {
-            "group": "Advanced Features",
-            "pages": [
-              "advanced/[add-advanced-feature]"
+              "how-to/duplicate-bot",
+              "how-to/share-bot",
+              "how-to/test-bot"
             ]
           },
           {
