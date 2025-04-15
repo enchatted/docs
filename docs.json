@@ -3,15 +3,19 @@
   "theme": "mint",
   "name": "Assignbots",
   "colors": {
-    "primary": "#6366F1",
-    "light": "#A5B4FC",
-    "dark": "#4338CA"
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Guides",
         "groups": [
           {
             "group": "Getting Started",
@@ -25,33 +29,38 @@
             "group": "Using the Platform",
             "pages": [
               "platform/dashboard-overview",
-              "platform/creating-a-project",
               "platform/creating-a-bot",
-              "platform/managing-projects"
+              "platform/switching-teams",
+              "platform/creating-a-team",
+              "platform/managing-teams"
             ]
           },
           {
-            "group": "Bot Configuration",
+            "group": "Bot Editor",
             "pages": [
               "bot-editor/ai-setup",
               "bot-editor/tone",
-              "bot-editor/visuals",
+              "bot-editor/welcome",
               "bot-editor/knowledge",
+              "bot-editor/visuals",
               "bot-editor/script"
             ]
           },
           {
-            "group": "How-To Guides",
+            "group": "How-To",
             "pages": [
+              "how-to/test-bot",
               "how-to/duplicate-bot",
-              "how-to/share-bot",
-              "how-to/test-bot"
+              "how-to/share-bot"
             ]
           },
           {
-            "group": "API Reference",
+            "group": "Settings & Support",
             "pages": [
-              "api-reference/endpoints"
+              "settings/account-settings",
+              "settings/data-deletion",
+              "settings/support-&-Contact",
+              "faq"
             ]
           },
           {
@@ -68,25 +77,37 @@
               "support-&-Contact"
             ]
           }
+
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api-reference/endpoint/introduction",
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
         ]
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
     "links": [
       {
-        "label": "Contact",
-        "href": "mailto:support@enchatted.com"
+        "label": "Support & Contact",
+        "href": "/settings/support-&-Contact"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Go to Assignbots",
-      "href": "https://assignbots.enchatted.com"
+      "label": "Go to App",
+      "href": "https://assignbots.enchatted.com/"
     }
   },
   "footer": {
